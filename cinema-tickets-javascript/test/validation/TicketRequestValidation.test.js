@@ -8,7 +8,7 @@ describe("Ticket Validation Tests", () => {
         let ticketRequests = [ticketRequest]
         expect(TicketRequestValidation.prototype.CheckNoOfTickets(ticketRequests)).toBe(true)
 
-        let ticketRequest2 = new TicketTypeRequest('CHILD', 20)
+        let ticketRequest2 = new TicketTypeRequest('CHILD', 25)
         ticketRequests.push(ticketRequest2)
         expect(TicketRequestValidation.prototype.CheckNoOfTickets(ticketRequests)).toBe(false)
     })
