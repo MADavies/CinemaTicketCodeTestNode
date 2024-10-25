@@ -31,10 +31,10 @@ export default class TicketTypeRequest {
   getTicketPrice(ticketType) {
     switch (ticketType) {
       case 'ADULT': {
-        return 20
+        return 25
       }
       case 'CHILD': {
-        return 10
+        return 15
       }
       case 'INFANT': {
         return 0
