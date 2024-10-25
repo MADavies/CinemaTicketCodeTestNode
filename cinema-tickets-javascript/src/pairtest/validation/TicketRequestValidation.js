@@ -8,7 +8,7 @@ export default class TicketRequestValidation {
             noOfTickets += ticketRequests[i].getNoOfTickets()
         }
 
-        if (noOfTickets > 0 && noOfTickets <= 20) {
+        if (noOfTickets > 0 && noOfTickets <= 25) {
             return true
         } else {
             return false
